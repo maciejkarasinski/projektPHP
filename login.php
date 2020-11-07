@@ -16,25 +16,28 @@
 
     // prevent SQLInjection
     $login = htmlentities($login, ENT_QUOTES, "UTF-8");
-    $password = htmlentities($password, ENT_QUOTES, "UTF-8");
 
     if($result = @$db_connect->query(
-      sprintf("SELECT * FROM users WHERE user='%s' AND password='%s'",
-      mysqli_real_escape_string($db_connect, $login),
-      mysqli_real_escape_string($db_connect, $password)))){
+      sprintf("SELECT * FROM users WHERE user='%s'",
+      mysqli_real_escape_string($db_connect, $login)))) {
       $exist = $result->num_rows;
       if($exist > 0) {
-        $_SESSION['loggedIn'] = true;
-
         $row = $result->fetch_assoc();
-        $_SESSION['user_id'] = $row['user_id'];
-        $_SESSION['user'] = $row['user'];
-        $_SESSION['email'] = $row['email'];
-        // user data from database
+        if(password_verify($password, $row['password'])) {
+          $_SESSION['loggedIn'] = true;
 
-        unset($_SESSION['blad']);
-        $result->close();
-        header('Location: raports.php');
+          $_SESSION['user_id'] = $row['user_id'];
+          $_SESSION['user'] = $row['user'];
+          $_SESSION['email'] = $row['email'];
+          // user data from database
+
+          unset($_SESSION['blad']);
+          $result->close();
+          header('Location: raports.php');
+        } else {
+          $_SESSION['blad']='<span style="color:red">Nieprawidłowy login lub hasło!</span>';
+          header('location: index.php');
+        }
       } else {
         $_SESSION['blad']='<span style="color:red">Nieprawidłowy login lub hasło!</span>';
         header('location: index.php');
