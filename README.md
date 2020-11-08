@@ -66,8 +66,8 @@ Użytkownik zalogowany może zmienić hasło
 
 ## Konfiguracja projektu
 Dostępni użytkownicy:
-adam qwerty123
-kasia start55
+adam qwerty123,
+kasia start55,
 roman haslo12345
 
 Aby uruchomić projekt lokalnie można wykorzystać pakiet XAMPP
