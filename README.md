@@ -46,7 +46,7 @@ Schemat bazy danych stworzonej w projekcie:
 
 * Zmiana hasła  
 <p align="center">
-  <img src="./img/zmiana_hasla.png" />
+  <img src="./img/zmianaHasla.png" />
 </p>
 
 ## Opis kodu
