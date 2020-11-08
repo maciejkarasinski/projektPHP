@@ -18,7 +18,6 @@ Projekt PHP z przedmiotu Zaawansowane Aplikacje Internetowe - Okno PW. Autor: Ma
 * PHP
 * mysql XAMP (PHPMyAdmin)
 * CSS
-Nie korzystałem z frameworków.
 
 ## Funkcjonalności
 * dodawanie/edycja/usuwanie utworów przez zalogowanego użytkownika
