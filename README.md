@@ -11,7 +11,7 @@ System do raportowania emisji utworów muzycznych
 * [Link do projektu](#link-do-projektu)
 
 ## Informacje ogólne
-
+Projekt PHP z przedmiotu Zaawansowane Aplikacje Internetowe - Okno PW. Autor: Maciej Karasiński
 
 ## Technologie
 * PHP
