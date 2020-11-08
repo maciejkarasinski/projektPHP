@@ -22,8 +22,11 @@ System do raportowania emisji utworów muzycznych
 * Autoryzacja użytkownika
 
 ## Baza danych
-App online on heroku
-https://calm-waters-56067.herokuapp.com/
+Schemat bazy danych stworzonej w projekcie:
+
+<p align="center">
+  <img src="./img/baza.png" />
+</p>
 
 ## Zrzuty ekranu
 * To use app, you need to Login with Google.  
