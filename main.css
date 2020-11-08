@@ -1,0 +1,44 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.label {
+  font-size: 16px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #03b1fc;
+  font-size: 16px;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+.btn-full{
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createRaportContainer {
+  background-color: #7c7985;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.songsContainer {
+  margin: 10px;
+}
+
+.inputSong {
+  margin-left: 15px;
+}
+
+.raportsContainer {
+  margin-left: 50px;
+}
