@@ -16,7 +16,7 @@ Projekt PHP z przedmiotu Zaawansowane Aplikacje Internetowe - Okno PW. Autor: Ma
 
 ## Technologie
 * PHP
-* mysql XAMP
+* mysql XAMP (PHPMyAdmin)
 * CSS
 Nie korzystałem z frameworków.
 
