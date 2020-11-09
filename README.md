@@ -70,6 +70,8 @@ adam qwerty123,
 kasia start55,
 roman haslo12345
 
+Aplikacja jest dostępna online na serwisie heroku (link poniżej). 
+
 Aby uruchomić projekt lokalnie można wykorzystać pakiet XAMPP
 https://www.apachefriends.org/pl/index.html
 Należy uruchomić usługi Apache i MySQL w XAMPP
