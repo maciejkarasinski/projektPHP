@@ -77,8 +77,6 @@ Umieścić pliki projektu w folderze ../XAMPP/htdocs/nazwafolderu
 Importować bazę danych znajdującą się w pliku mustat.sql do PHPMyAdmin (dostępnego w XAMPP)
 Wejść na stronę localhost/nazwafolderu (tego w htdocs)
 
-Projekt umieściłem również na hostingu heroku. Jednak nie udało mi się poprawnie skonfigurować bazy danych, więc nie działa poprawnie na tę chwilę.
-
 ## Opis kodu
 * index.php - widok dla niezalogowanego użytkownika, opcja logowania, zabezpieczenie przed sqlijection, wyświetlanie utworów/raportów
 * raports.php - widok dla zalogowanego użytkownika, funkcjonalności dodawania/edycji/usuwania utworów, tworzenia/wyświetlania raportów, opcja wylogowania/zmiany hasła
@@ -88,5 +86,4 @@ Projekt umieściłem również na hostingu heroku. Jednak nie udało mi się pop
 * mustat.sql plik bazy danych wyeksportowany z PHPMyAdmin
 
 ## Link do projektu
-Projekt znajduje się pod linkiem https://radiant-lake-43353.herokuapp.com/
-Niestety nie udało mi się skonfigurować bazy danych, więc nie działa poprawnie.
+Projekt znajduje się pod linkiem https://php-projekt.herokuapp.com/index.php
