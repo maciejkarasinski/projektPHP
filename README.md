@@ -70,7 +70,7 @@ adam qwerty123,
 kasia start55,
 roman haslo12345
 
-Aplikacja jest dostępna online na serwisie heroku (link poniżej). 
+Aplikacja jest dostępna online na serwisie heroku https://php-projekt.herokuapp.com/index.php
 
 Aby uruchomić projekt lokalnie można wykorzystać pakiet XAMPP
 https://www.apachefriends.org/pl/index.html
